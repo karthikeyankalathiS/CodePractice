@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(255, 214, 220);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(171, 0, 34);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 60%;
+}
+li{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+li:hover{
+    color: pink;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar{
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+#img{
+    width: 220px;
+    height: 330px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0,0,0,0.2); */
+}
+.box{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    width: 220px;
+
+}
+.products{
+    text-align: center;
+}
+.box :hover{
+    background-color: black;
+    color: pink;
+}
+.about{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+.Contact{
+    background-color: black;
+    color: rgb(255, 85, 113);
+    text-align: center;
+}
+#Cranberry :hover{
+    color: aqua;
+}
+#cranberrypara :hover{
+    color: aqua;
+}
+#Peach :hover{
+    color: orchid;
+}
+#peachpara :hover{
+    color: orchid;
+}
+.aboutus {
+    text-align: center;
+}
